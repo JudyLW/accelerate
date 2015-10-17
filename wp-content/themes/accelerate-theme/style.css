@@ -472,7 +472,7 @@ h1 {
 .site-content,
 .site-footer,
 .header-main {
-	width:960px;
+	width:960px; 
 	margin:auto;
 	padding:0 10px;
 }
@@ -480,6 +480,7 @@ h1 {
 #masthead {
     background: none repeat scroll 0 0 #333;
     color: white;
+    height: 40px;
     height: 30px;
     padding: 10px 0;
 }
@@ -497,6 +498,7 @@ h1 {
 
 #masthead nav {
     float: right;
+/*    margin: 0px 0px 10px 0px;*/
 }
 
 #masthead nav ul {
@@ -625,7 +627,8 @@ aside.sidebar {
 	display: inline-block;
 	font-size: 14px;
 	line-height: normal;
-	margin-left: 35px;
+/*  margin-left: 35px;*/
+    margin: 0px 0px 10px 0px;
 	text-decoration: none;
 	text-transform: uppercase;
 }
@@ -1216,6 +1219,33 @@ section .navigation {
     text-align: center;
 }
 
+#masthead nav ul li {
+    float: left;
+    margin: 0 10px;
+}
 a.button, a.button:link {
 	color:white;
+}
+
+/* Case Studies */
+
+article.case-study {
+    margin: 40px 0 0;   
+}
+
+aside.case-study-sidebar {
+    float: left;
+    width: 300px;
+    margin: 0 40px 0 0;
+}
+
+div.case-study-images {
+    float: right;
+    width: 606px;
+}
+
+div.case-study-images img{
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
+    
 }
